@@ -45,7 +45,7 @@
     <h1 class="text-5xl mb-4 text-center">Commercial</h1>
     <button
       on:click={() => (selectedForm = "commercial")}
-      class="cursor-pointer py-2 px-5 text-sm rounded-full bg-gray-100 text-gray-700 hover:text-blue-600 font-medium"
+      class="cursor-pointer py-2 px-5 text-sm rounded-full bg-gray-100 text-gray-700 hover:text-blue-600 font-semibold"
     >
       Select Commercial
     </button>
@@ -106,7 +106,7 @@
     <h1 class="text-5xl mb-4 text-center">Residential</h1>
     <button
       on:click={() => (selectedForm = "residential")}
-      class="cursor-pointer py-2 px-5 text-sm rounded-full bg-gray-100 text-gray-700 hover:text-blue-600 font-medium"
+      class="cursor-pointer py-2 px-5 text-sm rounded-full bg-gray-100 text-gray-700 hover:text-blue-600 font-semibold"
     >
       Select Residential
     </button>

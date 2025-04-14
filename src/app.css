@@ -1,3 +1,12 @@
-@import 'tailwindcss';
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import "tailwindcss";
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  /* background-color: #f9fafb; */
+}

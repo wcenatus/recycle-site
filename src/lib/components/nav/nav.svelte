@@ -22,7 +22,7 @@
         <li>
           <a
             href={link.href}
-            class="py-2 px-5 text-sm rounded-full bg-gray-100 text-gray-700 hover:text-blue-600 font-medium"
+            class="py-2 px-5 text-sm rounded-full font-semibold bg-gray-100 text-gray-700 hover:text-blue-600"
             >{link.label}</a
           >
         </li>
@@ -34,7 +34,7 @@
         <li>
           <a
             href={link.href}
-            class="py-2 px-5 text-sm rounded-full bg-gray-100 text-gray-700 hover:text-blue-600 font-medium"
+            class="py-2 px-5 text-sm rounded-full font-semibold bg-gray-100 text-gray-700 hover:text-blue-600"
             >{link.label}</a
           >
         </li>

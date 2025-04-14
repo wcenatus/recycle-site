@@ -1,12 +1,14 @@
 <script>
   import { Navbar } from "$lib";
+  import About from "$lib/components/about/about.svelte";
   import Hero from "$lib/components/hero/hero.svelte";
 </script>
 
 <main class="min-w-2xl">
-  <Navbar />
+  <!-- <Navbar /> -->
   <!-- <h1 class="text-3xl font-semibold my-5 text-center">
     Find a Solution with a Free Quote
   </h1> -->
   <Hero />
+  <About />
 </main>
