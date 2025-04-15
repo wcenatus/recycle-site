@@ -1,12 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
 
 body {
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Roboto", sans-serif;
   width: 100%;
-  padding: 0;
-  margin: 0;
+  padding: 0 10px;
+  margin: 0 auto;
+  max-width: 1500px;
   /* background-color: #f9fafb; */
 }
+/* main {
+  margin: 0 auto;
+  max-width: 1920px;
+} */

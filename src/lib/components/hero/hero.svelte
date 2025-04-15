@@ -19,11 +19,11 @@
 </script>
 
 <div
-  class="flex h-[80vh] space-x-2 transition-all duration-500 ease-in-out relative"
+  class="flex h-[50vh] space-x-2 transition-all duration-500 ease-in-out relative"
 >
   <!-- Commercial Section -->
   <div
-    class={`transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-center bg-yellow-200 p-6 overflow-hidden relative
+    class={`transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-center bg-green-200 p-6 overflow-hidden relative
       ${
         selectedForm === "commercial"
           ? "w-[83.3333%]"
@@ -58,25 +58,24 @@
           type="text"
           placeholder="Business Name"
           bind:value={commercialInfo.name}
-          class="w-full px-4 py-2 rounded border border-gray-300"
+          class="w-full px-4 py-2 rounded-full bg-white/40 border-0"
         />
         <input
           type="text"
           placeholder="Address"
           bind:value={commercialInfo.address}
-          class="w-full px-4 py-2 rounded border border-gray-300"
+          class="w-full px-4 py-2 rounded-full bg-white/40 border-0"
         />
         <input
           type="text"
           placeholder="Recyclable Materials"
           bind:value={commercialInfo.materials}
-          class="w-full px-4 py-2 rounded border border-gray-300"
+          class="w-full px-4 py-2 rounded-full bg-white/40 border-0"
         />
         <button
-          type="submit"
-          class="bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700"
+          class="cursor-pointer py-2 px-5 text-sm rounded-full w-full bg-gray-100 text-gray-700 hover:text-blue-600 font-semibold"
         >
-          Submit Commercial Request
+          Submit
         </button>
       </form>
     {/if}
@@ -117,27 +116,26 @@
       >
         <input
           type="text"
-          placeholder="Full Name"
+          placeholder="Business Name"
           bind:value={residentialInfo.name}
-          class="w-full px-4 py-2 rounded border border-gray-300"
+          class="w-full px-4 py-2 rounded-full bg-white/40 border-0"
         />
         <input
           type="text"
           placeholder="Address"
           bind:value={residentialInfo.address}
-          class="w-full px-4 py-2 rounded border border-gray-300"
+          class="w-full px-4 py-2 rounded-full bg-white/40 border-0"
         />
         <input
           type="text"
           placeholder="Recyclable Materials"
           bind:value={residentialInfo.materials}
-          class="w-full px-4 py-2 rounded border border-gray-300"
+          class="w-full px-4 py-2 rounded-full bg-white/40 border-0"
         />
         <button
-          type="submit"
-          class="bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700"
+          class="cursor-pointer py-2 px-5 text-sm rounded-full w-full bg-gray-100 text-gray-700 hover:text-blue-600 font-semibold"
         >
-          Submit Residential Request
+          Submit
         </button>
       </form>
     {/if}

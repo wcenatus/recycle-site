@@ -28,7 +28,8 @@
         </li>
       {/each}
     </ul>
-    <h1 class="font-bold text-xl">LOGO</h1>
+    <!-- <h1 class="font-bold text-xl">LOGO</h1> -->
+    <img alt="logo" src="/images/greenbyte_leaf.svg" class="w-14" />
     <ul class="flex space-x-6">
       {#each links as link}
         <li>
